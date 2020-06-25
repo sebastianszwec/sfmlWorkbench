@@ -1,8 +1,11 @@
-#include <SFML/Graphics.hpp>
+#include "components/Animation.h"
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(800, 600), "SFML window");
+
+    sf::Texture texture;
+    texture.loadFromFile("img/fire.jpg");
 
     while (window.isOpen())
     {

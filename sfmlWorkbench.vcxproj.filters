@@ -4,10 +4,21 @@
     <Filter Include="src">
       <UniqueIdentifier>{2a11e519-7cdb-4da8-ad17-839eef14196f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="components">
+      <UniqueIdentifier>{a266eac1-f97d-43ff-8280-6bfacb9acaa1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="components\Animation.h">
+      <Filter>components</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
